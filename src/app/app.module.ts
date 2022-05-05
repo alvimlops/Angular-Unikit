@@ -10,6 +10,7 @@ import { PetsPageComponentComponent } from './pages/acconts/pets-page-component/
 import { ProductsPageComponent } from './pages/store/products-page/products-page.component';
 import { CardPageComponent } from './pages/store/card-page/card-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FramePageComponent } from './pages/master/frame.page';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
     PetsPageComponentComponent,
     ProductsPageComponent,
     CardPageComponent,
-    AppRoutingModule
+    AppRoutingModule,
+    FramePageComponent
   ],
   imports: [
     BrowserModule
